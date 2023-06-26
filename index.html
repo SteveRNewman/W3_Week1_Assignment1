@@ -1,87 +1,59 @@
+<!DOCTYPE html>
 
-  
-  <!DOCTYPE html>
-    
-  <html lang="en">
-    
+<html lang="en">
   <head>
-    
-    <meta charset="UTF-8">
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Document</title>
-    
   </head>
-    
+
   <body>
-    
     <!-- This is how i add comments, that HTML Will ignore -->
-    
-    <!-- Headers H1 -> H6-->
-    <!-- 
-      
-First Name Steve
-Last Name Newman
-GitHub URL (typically https://github.com/your_username)
-Location (Use country image or flag)
-Hobbies (a list)
-A short paragraph about you
-An image of yourself
-The page should also contain a contact form containing the following:
 
-A field for name
-A field for email
-A text field for comments
-A button to submit the form -->
-
-    <p>About Me</p>
-    <p> </p>
-    
-    <p/>Things I like ggggg</p>
-    
-    
-    <!-- List -->
-    
+    <p>First Name: Steve</p>
+    <p>Last Name: Newman</p>
+    <p>
+      GitHub URL:
+      <a href="https://github.com/SteveRNewman"
+        >https://github.com/SteveRNewman</a
+      >
+    </p>
+    <p>
+      Location:
+      <img class="avatar" src="usflag.png" height="200px" width="300px" />
+    </p>
+    <p>Hobbies:</p>
     <ul>
-      <li>Cycling</li>
-    
-      <li>Chess</li>
-    
+      <li>cycling</li>
+      <li>chess</li>
+      <li>board games</li>
     </ul>
-    
- 
-    
-    <!-- Create a image in HTML -->
-    
-    <img src="./image.png" alt="zoom class"/>
-    
+    <p>A short paragraph me:</p>
+    <p>
+      My name is Steve and I was born in N. California. I grew up in Los Angeles
+      and went to Culinary School in New York. I relocated to Los Angeles in the
+      late 1990's; got married and then relocated to San Francisco until 2018. I
+      have lived in Pittsburgh, PA since 2018.
+    </p>
+    <p>
+      Photo of me:
+      <img class="avatar" src="profile.png" height="225px" width="200px" />
+    </p>
+    <p>
+      Hobbi A field for name A field for email A text field for comments A
+      button to submit the form -->
+    </p>
 
-    
-    <!-- index.html -->
-    
-  <h3>John Doe</h3>
-    
-  <img class="avatar" src="https://m.media-amazon.com/images/I/71qokUI2ypL._AC_SX679_.jpg" height="200px" width="200px"/>
-    
-  <p>My name is John. I am a software developer. I am proficient in:</p>
-    
-  <ul>
-    
-      <li>HTML</li>
-    
-      <li>CSS</li>
-    
-      <li>JavaScript</li>
-    
-      <li>React</li>
-    
-  </ul>
-    
-  <p>Check out my full profile at <a href="https://w3schools.com">W3Schools!</a></p>
-    
+    <form>
+      <label for="name">Name:</label><br />
+      <input type="text" id="name" name="name" /><br />
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" /><br />
+      <label for="comments">Comments:</label><br />
+      <input type="text" id="comments" name="comments" /><br />
+      <input type="submit" value="Submit" />
+    </form>
   </body>
-    
-  </html>
-
-  
+</html>
